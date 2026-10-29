@@ -11,15 +11,15 @@
                 "-fexec-charset=UTF-8",
                 "-fdiagnostics-color=always",  // 彩色输出编译信息
                 "-I",
-                "E:/code/c_Datastructure/chapter9/include",
+                "E:/code/c_Datastructure/chapter7/include",
                 "-g",  // 生成调试信息（必须加，否则无法调试）
-                "E:/code/c_Datastructure/chapter9/main/main.c",
-                "E:/code/c_Datastructure/chapter9/src/mysort.c",
+                "E:/code/c_Datastructure/chapter7/main/main.c",
+                "E:/code/c_Datastructure/chapter7/src/mygraph.c",
                 "-o",  // 指定输出文件
-                "E:/code/c_Datastructure/chapter9/bin/main.exe"  // 输出路径（如：当前目录/文件名.exe）
+                "E:/code/c_Datastructure/chapter7/bin/main.exe"  // 输出路径（如：当前目录/文件名.exe）
             ],
             "options": {
-                "cwd": "E:/code/c_Datastructure/chapter9"
+                "cwd": "E:/code/c_Datastructure/chapter7"
             },
             "problemMatcher": ["$gcc"],  // 识别gcc的编译错误/警告
             "group": {

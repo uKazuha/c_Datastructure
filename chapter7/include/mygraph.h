@@ -20,6 +20,10 @@
 #ifndef MYGRAPH_H_
 #define MYGRAPH_H_
 
+
+#include <stdio.h>
+#include <stdbool.h>
+
 #define MAXSIZE 5
 
 typedef char VerxType;
@@ -158,6 +162,12 @@ typedef struct MultiGraph{
     int edgeNum;
 
 }MultiGraph;
+
+
+void DFS_Matrix(MatrixGraph G,int i,bool visited[]);
+void DFS_Matrix_traverse(MatrixGraph G);
+
+
 
 
 
